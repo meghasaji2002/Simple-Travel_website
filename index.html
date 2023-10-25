@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Travel time holidays</title>
+		<link rel="icon" type="image/x-icon" href="./gallery/World_Travel_Logo_Template__1_-removebg-preview.png">
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="./style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+			integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Cormorant+Garamond:ital,wght@1,300;1,500&family=Croissant+One&family=EB+Garamond&family=Fuggles&family=Kenia&family=Mooli&family=Skranji:wght@700&display=swap" rel="stylesheet">
+	</head>
+	<body class="homepage">
+		<div>
+			<nav class="navbar navbar-expand-lg">
+				<div class="container-fluid" id="container">
+					<div class="img">
+						<img class="logo"
+							src="./gallery/World_Travel_Logo_Template__1_-removebg-preview.png"
+							alt=""
+							width="80px"
+						/>
+					</div>
+				  <!-- <h1 class="webname navbar-brand text-danger fs-1">Let's Go</h1> -->
+				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="mynavbar">
+					<ul class="navbar-nav me-auto ">
+					  <li class="nav-item">
+						<a class="nav-link itemhacc" href="#home">Home</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link itemhacc" href="#aboutus">About Us</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link itemhacc" href="#services">Services</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link itemhacc" href="./contact.html">Contact</a>
+					  </li>   
+					  <li class="nav-item dropdown">
+						
+							<button class="btn dropdown-toggle text-light nav-item " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+							  Indian Packages
+							</button>
+							<ul class="dropdown-menu">
+							  <li><a class="dropdown-item" href="#kashmir">Kashmir</a></li>
+							  <li><a class="dropdown-item" href="#kullu">Kullu manali</a></li>
+							  <li><a class="dropdown-item" href="#gujarat">Gujarat</a></li>
+							  <li><a class="dropdown-item" href="#rajastan">Rajastan</a></li>
+							  <li><a class="dropdown-item" href="#">Hyderabad</a></li>
+							  <li><a class="dropdown-item" href="#goa">Goa</a></li>
+							  <li><a class="dropdown-item" href="#">Kerala</a></li>
+							</ul>
+						  
+					  </li> 
+					  <li class="nav-item dropdown">
+						
+							<button class="btn dropdown-toggle text-light nav-item" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+							International Packages
+							</button>
+							<ul class="dropdown-menu">
+							  <li><a class="dropdown-item" href="#maldives">Maldives</a></li>
+							  <li><a class="dropdown-item" href="#bali">Bali</a></li>
+							  <li><a class="dropdown-item" href="#vietnam">Vietnam</a></li>
+							  <li><a class="dropdown-item" href="#">Thailand</a></li>
+							  <li><a class="dropdown-item" href="#">Srilanka</a></li>
+							  <li><a class="dropdown-item" href="#">Malasia</a></li>
+							</ul>
+						
+					  </li> 
+					</ul>
+					
+						
+						  
+						
+				  </div>				 
+			</div>
+			</nav>
+				
+					
+				
+				<div class="backgimg hero container-fluid">
+					<video autoplay loop muted place-inline  class="back-video">
+						<source src="./gallery/pexels-luke-webb-8042504 (2160p).mp4" type="video/mp4">
+					</video>
+					<div class="backimghp"><h1>Travel Time Holidays</h1>
+						<p>Let your dreams come true</p></div>
+					
+					<!-- offcanvas -->
+					<div><button class="btn btn-primary bookbtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Book your package</button>
+
+						<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+						  <div class="offcanvas-header">
+							<h5 class="offcanvas-title" id="offcanvasScrollingLabel">Details required</h5>
+							
+							<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+						  </div>
+						  <div class="offcanvas-body ">
+							
+							<form action="">
+								<div class="row">
+									<div class="col-4"><label class="labels" for="name">Name</label></div>
+									<div class="col-4"><input type="text" id="name"><br></div>
+									<div class="col-4"></div>
+								</div> <br>
+								<div class="row">
+									<div class="col-4"><label class="labels" for="email">Email address</label></div>
+									<div class="col-4"><input type="email" id="email"><br></div>
+									<div class="col-4"></div>
+								</div> <br>
+								<div class="row">
+									<div class="col-4"><label class="labels" for="place">Place</label></div>
+									<div class="col-4"><input type="text" id="place"><br></div>
+									<div class="col-4"></div>
+								</div> <br>
+								<div class="row">
+									<div class="col-4"><label class="labels" for="travellers">Number of travellers</label></div>
+									<div class="col-4"><input type="number" id="travellers"><br></div>
+									<div class="col-4"></div>
+								</div> <br>
+								<div class="row">
+									<div class="col-4">
+										<label class="labels" name="child" for="">Have child before 5 year old</label>
+										<br>
+									</div>
+									<div class="col-4">
+										<input name="child" id="yes" type="radio">
+										<label class="labels" for="yes">Yes</label>
+										<input name="child" id="no" type="radio">
+										<label class="labels" for="no">No</label><br>
+									</div>
+									<div class="col-4"></div>
+								</div> <br>
+								<div class="row">
+									<div class="col-4"><label class="labels" for="mobnum">Contact Number</label></div>
+									<div class="col-4"><input type="number" id="mobnum"></div>
+									<div class="col-4"></div>
+								</div><br>
+								<div class="row detailsbutton"><button class="detailsbtn" type="submit">Submit</button></div>
+
+
+								
+							</form>
+						  </div>
+						</div></div>  
+
+						<div class="row"></div>
+				</div>
+			
+				<div class="row mx-0 aboutservice" id="AboutUs">
+				
+					<div class="aboutus col-md-6 ">
+						<div >
+							<h3>About Us</h3>
+						</div>
+						<div >
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing
+								elit. Doloribus, pariatur tempora! Quasi accusantium
+								veritatis sit commodi qui aperiam sequi at nam!
+								Quibusdam eum cum molestias, quisquam voluptatem nam
+								amet reprehenderit?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo cumque cum eveniet. Dolorem nisi, perferendis expedita sunt, excepturi vitae placeat laudantium molestias corporis eligendi rerum recusandae? Autem doloremque enim sequi. 
+							</p>
+						</div>
+					</div>
+					<div class="aboutcolimg  col-md-6">
+						<div class="globe"><img src="./gallery/pexels-nataliya-vaitkevich-7236027__1___2_-removebg-preview.png" alt=""></div>
+						</div>
+				</div>	
+			
+			<div class="container container-fluid" id="CustomisedPackages">
+				<div class="row"  id="bgimg">
+					<div class="row">
+						<div class="col-md-6"></div>
+						<div class="col-md-6 explore">
+							<div ><h2>Explore your vacations</h2></div>
+							<div >
+								<p>
+									It's time to make your vacations memorable .We are
+									here for you.we've budjet friendly international
+									packages,domestic packages and customised
+									packages.live each moment.
+								</p>
+							</div>
+							
+							<div class="customised"><a class="customisedpackages" href="./customised.html">Customised packages</a></div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		    
+			<!-- carousel -->
+
+            
+
+			<div class="cards container-fluid">
+				<div class=" popular">
+					<h2>Popular Packages</h2>
+				</div>
+				<div id="carouselExample" class="carousel slide">
+					<div class="carousel-inner">
+					  <div class="carousel-item active ">
+					<div class="carouselcards">
+						<div class="col-6 col-md-3 py-3 px-2"><div class="card" id="maldives" >
+							<img
+								src="https://images.unsplash.com/photo-1573843981267-be1999ff37cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWFsZGl2ZXN8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+								class="card-img-top"
+								alt="..."
+								height="250px"
+							/>
+							<div class="card-body" >
+								<h5 class="card-title">Maldives </h5>
+								<p class="card-text">
+									Some quick example text to build on the card title
+									and make up the bulk of the card's content.
+								</p>
+								<a href="https://en.wikipedia.org/wiki/Tourism_in_the_Maldives" class="btn btn-primary"
+									>Detailed Itinerary</a
+								>
+							</div>
+						</div> </div>
+						<div class="col-6 col-md-3 py-3 px-2"><div class="card" id="bali" >
+							<img
+								src="https://media.istockphoto.com/id/675172642/photo/pura-ulun-danu-bratan-temple-in-bali.jpg?s=612x612&w=0&k=20&c=_MPdmDviIyhldqhf7t6s63C-bZbTGfNHMlJP9SIa8Y0="
+								class="card-img-top"
+								alt="..."
+								height="250px"
+							/>
+							<div class="card-body" >
+								<h5 class="card-title">Bali </h5>
+								<p class="card-text">
+									Some quick example text to build on the card title
+									and make up the bulk of the card's content.
+								</p>
+								<a href="https://en.wikipedia.org/wiki/Category:Tourist_attractions_in_Bali" class="btn btn-primary"
+									>Detailed Itinerary</a
+								>
+							</div>
+						</div></div>
+						<div class="col-6 col-md-3 py-3 px-2"><div class="card" id="vietnam" >
+							<img
+								src="https://media.istockphoto.com/id/624183176/photo/terraced-rice-field-in-mu-cang-chai-vietnam.jpg?s=612x612&w=0&k=20&c=8r_qT3g_x58wtOr6WKNtZDN7D1c4yKWttcfLJDnB9EA="
+								class="card-img-top"
+								alt="..."
+								height="250px"
+							/>
+							<div class="card-body" >
+								<h5 class="card-title">Vietnam </h5>
+								<p class="card-text">
+									Some quick example text to build on the card title
+									and make up the bulk of the card's content.
+								</p>
+								<a href="https://en.wikipedia.org/wiki/Tourism_in_Vietnam" class="btn btn-primary"
+									>Detailed Itinerary</a
+								>
+							</div>
+						</div></div>
+						<div class="col-6 col-md-3 py-3 px-2"><div class="card" >
+							<img
+											src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z29hfGVufDB8fDB8fHww&w=1000&q=80"
+											class="card-img-top"
+											alt="..."
+											height="250px"
+										/>
+										<div class="card-body" id="goa">
+											<h5 class="card-title">Goa </h5>
+											<p class="card-text">
+												Some quick example text to build on the card title
+												and make up the bulk of the card's content.
+											</p>
+											<a href="https://en.wikipedia.org/wiki/Tourism_in_Goa" class="btn btn-primary"
+												>Detailed Itinerary</a
+											>
+										</div>
+						</div></div>
+					</div>
+					  </div>
+					  
+					  <div class="carousel-item">
+					<div class="carouselcards">	
+						<div class="col-6 col-md-3 py-3 px-2"><div class="card" id="kashmir" >
+							<img
+											src="https://media.istockphoto.com/id/1323846766/photo/a-beautiful-view-of-dal-lake-in-winter-srinagar-kashmir-india.jpg?s=612x612&w=0&k=20&c=Dp3peie2t-jdLEmqe4W-DD09GACu2Cr-JjHHeB6rpBc="
+											alt="..."
+											height="250px"
+										/>
+										<div class="card-body" >
+											<h5 class="card-title">Kashmir </h5>
+											<p class="card-text">
+												Some quick example text to build on the card title
+												and make up the bulk of the card's content.
+											</p>
+											<a href="https://en.wikipedia.org/wiki/Tourism_in_Jammu_and_Kashmir" class="btn btn-primary"
+												>Detailed Itinerary</a
+											>
+										</div>
+						</div></div>
+					<div class="col-6 col-md-3 py-3 px-2"><div class="card" id="kullu" >
+						<img
+										src="https://www.honeymoonpackagesmanali.org/uploads/8/2/6/1/8261259/p179.png"
+										alt="..."
+										height="250px"
+									/>
+									<div class="card-body" >
+										<h5 class="card-title">Kullu-Manali </h5>
+										<p class="card-text">
+											Some quick example text to build on the card title
+											and make up the bulk of the card's content.
+										</p>
+										<a href="https://en.wikipedia.org/wiki/Kullu_Manali_Circuit" class="btn btn-primary"
+											>Detailed Itinerary</a
+										>
+									</div>
+					</div></div>
+					<div class="col-6 col-md-3 py-3 px-2"><div class="card" id="gujarat" >
+						<img
+										src="https://wallpapercave.com/wp/wp3917582.jpg"
+										alt="..."
+										height="250px"
+									/>
+									<div class="card-body" >
+										<h5 class="card-title">Gujarat </h5>
+										<p class="card-text">
+											Some quick example text to build on the card title
+											and make up the bulk of the card's content.
+										</p>
+										<a href="https://en.wikipedia.org/wiki/Tourism_in_Gujarat" class="btn btn-primary"
+											>Detailed Itinerary</a
+										>
+									</div>
+					</div></div>
+					<div class="col-6 col-md-3 py-3 px-2"><div class="card" id="rajastan" >
+						<img
+										src="https://media.istockphoto.com/id/1224021113/photo/indian-cameleers-camel-driver-with-camel-silhouettes-in-dunes-on-sunset-jaisalmer-rajasthan.webp?b=1&s=170667a&w=0&k=20&c=tbQHyU-nBmjXzDltzBkwERtNwR7u9X0pQAJedllsCDg="
+										alt="..."
+										height="250px"
+									/>
+									<div class="card-body" >
+										<h5 class="card-title">Rajastan </h5>
+										<p class="card-text">
+											Some quick example text to build on the card title
+											and make up the bulk of the card's content.
+										</p>
+										<a href="https://en.wikipedia.org/wiki/Tourism_in_Rajasthan" class="btn btn-primary"
+											>Detailed Itinerary</a
+										>
+									</div>
+					</div></div></div>
+					  </div>
+					  
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+						<i class="fa-solid fa-chevron-left"></i>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+						<i class="fa-solid fa-chevron-right"></i>
+					</button>
+				  </div>
+
+				
+				
+			</div>
+			<div class="container-fluid beforecontact mt-5">
+				<div class="servicetitle"><h1>SERVICES</h1></div>
+				<div class="row tworows">
+					<div class="col-md-4 ">
+						<div class="fat single-card"><div class="front">
+							<i class="fa-solid fa-plane faticons "></i>
+							<!-- <img class="img1"  src="https://images.all-free-download.com/images/graphiclarge/airbus_hd_photo_1_168573.jpg" alt=""> -->
+						</div>
+						<div class="back">
+							<div >
+								<h4>Flight fare</h4>
+							</div>
+							<div >
+								<p>Flight fare included in package cost.Flight fare will be different according to the destination and time.</p>
+							</div>
+						</div></div>
+						
+					</div>
+					<div class="col-md-4 ">
+						<div class="fat single-card"><div class=" front"><i class="fa-solid fa-hotel faticons "></i>
+							<!-- <img class="img2" src="https://static2.tripoto.com/media/filter/tst/img/271714/TripDocument/1625577508_pahalgam_hotel.jpg" alt=""> -->
+						</div>
+							<div class="back">
+								<div >
+									<h4>Accomodation</h4> 
+								</div>
+								<div >
+									<p>5 Star and 3 star hotels will be provided according to your preference.</p>
+								</div>
+							</div></div>
+						
+					</div>
+					<div class="col-md-4 ">
+						<div class="fat single-card">
+							<div class=" front"><i class="fa-solid fa-car faticons "></i>
+								<!-- <img class="img2" src="https://etimg.etb2bimg.com/photo/99112585.cms" alt=""> -->
+							</div>
+								<div class="back">
+									<div class="">
+										<h4>Transportation</h4>
+									</div>
+									<div class="">
+										<p>According to the number of passengers, vehicles will be provided.</p>
+									</div>
+								</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="row servicescndrow tworows">
+					<div class="col-md-4 ">
+						<div class="fat single-card"><div class="front">
+							<i class="fa-solid fa-utensils faticons"></i>
+							<!-- <img class="img1"  src="https://images.all-free-download.com/images/graphiclarge/airbus_hd_photo_1_168573.jpg" alt=""> -->
+						</div>
+						<div class="back">
+							<div >
+								<h4>Food</h4>
+							</div>
+							<div >
+								<p>Food provided by hotels where you're going to stay.You will get healthy and tasty food.</p>
+							</div>
+						</div></div>
+						
+					</div>
+					<div class="col-md-4 ">
+						<div class="fat single-card"><div class=" front"><i class="fa-solid fa-person-skating faticons"></i>
+							<!-- <img class="img2" src="https://static2.tripoto.com/media/filter/tst/img/271714/TripDocument/1625577508_pahalgam_hotel.jpg" alt=""> -->
+						</div>
+							<div class="back">
+								<div >
+									<h4>Adventure</h4> 
+								</div>
+								<div >
+									<p>You can enjoy various adventure activities according to your trip.</p>
+								</div>
+							</div></div>
+						
+					</div>
+					<div class="col-md-4 ">
+						<div class="fat single-card">
+							<div class=" front"><i class="fa-solid fa-helmet-safety faticons"></i>
+								<!-- <img class="img2" src="https://etimg.etb2bimg.com/photo/99112585.cms" alt=""> -->
+							</div>
+								<div class="back">
+									<div class="">
+										<h4>Safety measures</h4>
+									</div>
+									<div class="">
+										<p>We assure the safety of our customers at any situation.we'll provide safety measures at the time of adventure activities.</p>
+									</div>
+								</div>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+			<div class="row mx-0 assurancecontainer">
+				<div class="aboutimg col-md-6  ">
+					<img src="./gallery/assurance img.jpg" alt="">
+				</div>
+				<div class="col-md-6 assurancecol ">
+					<div class="assurance" >
+						<div><h4>We assure you</h4></div>
+							<div class="assureul"><ul>
+								<li>Travel insurance</li>
+								<li>Emergency services</li>
+								<li>Pricing flexibility</li>
+								<li>Safety of customers</li>
+								<li>Integrated Social elements</li>
+							</ul></div>
+						</div>
+					</div>
+						
+					</div>
+					
+					<div class="container-fluid reviewfeedback">
+						<div ><h3>Reviews & Feedbacks</h3></div>
+						
+							<div class="row twocols">
+								<div class="col-md-6 ratecol">
+									
+										<div ><h5 class="ratingtxt">Rate Us</h5></div>
+										
+											
+												<span><i class="fa-regular fa-star ratingstar"></i></span>
+												<span><i class="fa-regular fa-star ratingstar"></i></span>
+												<span><i class="fa-regular fa-star ratingstar"></i></span>
+												<span><i class="fa-regular fa-star ratingstar"></i></span>
+												<span><i class="fa-regular fa-star ratingstar"></i></span>
+											
+								</div>
+									
+								
+							<div class="col-md-6 feed"><div ><h5>Feedback</h5></div>
+							<div class="inputbtn"><form action=""><input type="text" placeholder="share your feedback">
+							</form>
+							<div class="postbtn"><button class="post"  type="submit">Post</button></div></div></div>
+							</div>
+					</div> 	
+				    <div class="container-fluid ratingcontainer">
+						<div class="ratingtext"><h2>Top reviews from customers</h2></div>
+						<div class="row reviewcards " >
+						<div class="col-md-4 eachcard"><div class="card rivewcard" >
+							<div class="card-body">
+							  <h5 class="card-title">James</h5>
+							  <h6 class="card-subtitle mb-2 text-body-secondary">Banglore</h6>
+							  <p class="card-text">Great service.it was very smooth trip.Thank you travel time holidays.</p>
+							  
+							  
+							</div>
+							<div class="ratingstars">
+								<span class="fa fa-star checked"></span>
+							  <span class="fa fa-star checked "></span><span class="fa fa-star checked "></span><span class="fa fa-star checked "></span><span class="fa fa-star checked"></span>
+							</div>
+						  </div></div>
+						<div class="col-md-4 eachcard"><div class="card rivewcard" >
+							<div class="card-body">
+							  <h5 class="card-title">Anna</h5>
+							  <h6 class="card-subtitle mb-2 text-body-secondary">Delhi</h6>
+							  <p class="card-text">The service was excellent keep up the good work.Plan was awesome.  </p>
+							  </div>
+							  <div class="ratingstars"> <span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked "></span><span class="fa fa-star checked "></span><span class="fa fa-star  "></span><span class="fa fa-star "></span></div>
+						  </div></div>
+						<div class="col-md-4 eachcard"><div class="card rivewcard" >
+							<div class="card-body">
+							  <h5 class="card-title">Christopher</h5>
+							  <h6 class="card-subtitle mb-2 text-body-secondary">Lucknow</h6>
+							  <p class="card-text">Service was too good and the guid was so friendly to us.</p>
+							  
+							</div>
+							<div class="ratingstars"><span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked "></span><span class="fa fa-star checked "></span><span class="fa fa-star checked  "></span><span class="fa fa-star "></span></div>
+						  </div></div>
+						
+					</div>
+					<div class="row reviewcards scndrow mx-0" >
+						<div class="col-md-4 eachcard"><div class="card rivewcard" >
+							<div class="card-body">
+							  <h5 class="card-title">Aleena</h5>
+							  <h6 class="card-subtitle mb-2 text-body-secondary">Coimbatore</h6>
+							  <p class="card-text">Great service.it was very smooth trip, would use travel time holidays again.</p>
+							  
+							  
+							</div>
+							<div class="ratingstars">
+								<span class="fa fa-star checked"></span>
+							  <span class="fa fa-star checked "></span><span class="fa fa-star checked "></span><span class="fa fa-star checked "></span><span class="fa fa-star checked"></span>
+							</div>
+						  </div></div>
+						<div class="col-md-4 eachcard"><div class="card rivewcard" >
+							<div class="card-body">
+							  <h5 class="card-title">George</h5>
+							  <h6 class="card-subtitle mb-2 text-body-secondary">kochi</h6>
+							  <p class="card-text">The service was excellent keep up the good work.Plan was awesome.  </p>
+							  </div>
+							  <div class="ratingstars"> <span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked "></span><span class="fa fa-star checked "></span><span class="fa fa-star  "></span><span class="fa fa-star "></span></div>
+						  </div></div>
+						<div class="col-md-4 eachcard"><div class="card rivewcard" >
+							<div class="card-body">
+							  <h5 class="card-title">David</h5>
+							  <h6 class="card-subtitle mb-2 text-body-secondary">Mumbai</h6>
+							  <p class="card-text">Thank you travel time holidays for giving a memorable holiday.</p>
+							  
+							</div>
+							<div class="ratingstars"><span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked "></span><span class="fa fa-star checked "></span><span class="fa fa-star checked  "></span><span class="fa fa-star "></span></div>
+						  </div></div>
+						
+					</div>
+					</div>
+					<footer class="row mx-0 footer" id="ContactUs">
+				
+						<div class="row foot">
+							<div class="col-2 col-md-8"></div>
+							<div class="col-9 col-md-4">
+								<div class="row mt-5"></div>
+								<div class="row mt-5">
+									<div class=" col-4">
+										<h6>Our Branches</h6>
+										<h6>Kochi</h6>
+										<h6>Tvm</h6>
+										<h6>Hyderabad</h6>
+										<h6>Delhi</h6>
+										<h6>Chennai</h6>
+										<h6>Mumbai</h6>
+										<h6>Banglore</h6>
+									</div>
+
+									<div class="col-4">
+										<h6>Quick Contact</h6>
+										<div class="space"><a class="link" href=""><i class="icon fa-solid fa-location-dot footericons"></i>Address</a></div>
+										<div class="space"><a class="link" href=""><i class="icon fa-solid fa-phone footericons"></i>Phone</a></div>
+										<div class="space"><a class="link" href=""><i class="icon fa-solid fa-envelope footericons"></i>Mail</a></div>
+										
+									</div>
+
+									<div class="col-4 ">
+										<h6>Follow Us</h6>
+										<div class="lastcolicons">
+											<div><a  href=""><i class="icon fa-brands fa-whatsapp footericons"></i></a></div>
+											<div><a  href=""><i class="icon fa-brands fa-facebook footericons"></i></a></div>
+											<div>	<a  href=""><i class="icon fa-brands fa-instagram footericons"></i></a></div>
+											<div><a  href=""><i class="icon fa-brands fa-twitter footericons"></i></a></div></div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+							
+						<div class=" lastsentence">
+								
+							<p >
+								&copy;Travel time 2023,All Rights Reserved &reg;m designs
+							</p>
+						</div>
+						
+						
+						
+					</footer>
+			</div>
+			
+			
+			
+		
+		
+
+		
+			
+			
+		
+		<script>
+		const carousel = new bootstrap.Carousel('#carouselExample');
+		</script>
+	</body>
+</html>

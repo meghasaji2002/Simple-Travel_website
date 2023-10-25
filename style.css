@@ -1,0 +1,642 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* navbar styling */
+.navbar {
+	width: 100%;
+	justify-content: space-between;
+	position: fixed;
+	z-index: 1;
+	/* font-family: 'Mooli', sans-serif; */
+}
+.nav-link {
+	color: white;
+	font-family: "Mooli", sans-serif;
+}
+.img {
+	margin-left: 0;
+	height: 65px;
+}
+.logo {
+	margin-top: 0;
+}
+
+.itemhacc:hover {
+	color: yellow;
+	border-bottom: 3px solid rgb(20, 245, 215);
+	border-top: 3px solid rgb(20, 245, 215);
+}
+
+.itemhacc {
+	font-family: "Mooli", sans-serif;
+}
+.offcanvas-body {
+	font-family: "Mooli", sans-serif;
+}
+.detailsbtn {
+	width: 100px;
+	height: 30px;
+}
+.detailsbutton {
+	justify-content: center;
+}
+.dropdown-toggle {
+	padding-left: 0;
+	padding-right: 0;
+}
+@media (min-width: 992px) {
+	.dropdown-toggle {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+/* homepage styling */
+.hero {
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(
+		rgba(12, 3, 51, 0.2),
+		rgba(12, 3, 51, 0.2)
+	);
+	position: relative;
+	padding-top: 180px;
+}
+.back-video {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+@media (min-aspect-ratio: 16/9) {
+	.back-video {
+		width: 100%;
+		height: auto;
+	}
+}
+@media (max-aspect-ratio: 16/9) {
+	.back-video {
+		width: auto;
+		height: 100%;
+	}
+}
+
+/* .backgimg{
+	width: 100%;
+	height: 800px;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4));
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 200px;
+} */
+
+.backimghp p {
+	margin-top: 80px;
+}
+
+.backgimg h1,
+p {
+	color: white;
+	text-align: center;
+	font-family: "Skranji", cursive;
+}
+.backgimg h1 {
+	text-shadow: 0px 1px 1px rgb(26, 24, 24);
+}
+.bookbtn {
+	width: 200px;
+	height: 40px;
+	border-radius: 20px;
+	display: block;
+	margin: 0 auto;
+	background-image: linear-gradient(
+		to right top,
+		rgb(37, 88, 199),
+		rgb(38, 211, 241)
+	);
+	margin-top: 60px;
+	font-family: "Mooli", sans-serif;
+}
+
+.labels {
+	color: rgb(0, 0, 0);
+}
+
+/* about styling */
+.aboutservice {
+	margin-top: 100px;
+}
+
+/* @media (max-width:500px) {
+	.aboutcolimg{
+		padding-left: 400px;
+	}
+} */
+
+.aboutcolimg img {
+	max-width: 100%;
+	width: 350px;
+	display: block;
+	margin: 0 auto;
+}
+
+.aboutus p {
+	/* background-color:rgb(39, 79, 164); */
+	margin-top: 50px;
+	color: rgb(5, 0, 0);
+	font-family: "Mooli", sans-serif;
+}
+.aboutimg img {
+	width: 100%;
+	height: 400px;
+}
+.aboutus h3 {
+	text-align: center;
+	font-family: "Caveat Brush", cursive;
+	font-size: 40px;
+}
+
+/* customised styling */
+#CustomisedPackages {
+	margin-top: 100px;
+}
+#bgimg {
+	background-image: url("./gallery/pexels-asad-photo-maldives-1268855.jpg");
+	height: 400px;
+	background-size: cover;
+	/* margin-top: 50px;
+    margin-bottom: 50px; */
+	background-attachment: fixed;
+}
+.explore {
+	text-align: center;
+	align-items: center;
+	padding-top: 20px;
+}
+.explore h2 {
+	font-family: "Skranji", cursive;
+}
+
+.explore p {
+	color: rgb(0, 0, 0);
+	font-family: "Caveat Brush", cursive;
+	font-size: 20px;
+}
+
+.cus {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url("https://images.pexels.com/photos/15031960/pexels-photo-15031960/free-photo-of-maldives-island-water-villa-sunset.jpeg?auto=compress&cs=tinysrgb&w=600");
+	width: 100%;
+	min-height: 100vh;
+
+	padding-top: 20px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30px;
+}
+.blurpage {
+	width: 400px;
+	max-width: 90%;
+	border: 1px solid white;
+	border-radius: 5px;
+    padding-top: 15px;
+	margin-left: 50%;
+	translate: -50%;
+	backdrop-filter: blur(1rem);
+	background-color: rgba(225, 225, 225, 0.1);
+}
+.cus h2,
+label {
+	color: rgb(255, 255, 255);
+	font-family: "Caveat Brush", cursive;
+}
+.label {
+	font-size: 20px;
+}
+.form-control {
+	width: 200px;
+	height: 30px;
+	max-width: 100%;
+}
+.customised {
+	width: 200px;
+	height: 35px;
+	border: 1px solid;
+	/* background-color: rgba(38, 211, 241, 0.852); */
+	background-image: linear-gradient(
+		to right top,
+		rgb(37, 88, 199),
+		rgb(38, 211, 241)
+	);
+	color: white;
+	border-radius: 5px;
+	/* margin-left: 200px; */
+	padding: 5px;
+	align-items: center;
+	justify-content: center;
+	margin-left: 50%;
+	translate: -50%;
+}
+.customised a {
+	text-align: center;
+
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.customised a:hover {
+	color: black;
+}
+
+.customisedform {
+	margin-top: 80px;
+	position: relative;
+}
+.customisedformitems {
+	
+	padding: 0 15px;
+	
+}
+
+.labelsinput {
+	width: 350px;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.form-label {
+	text-align: left;
+	display: block;
+}
+
+.submitbutton {
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+	background-image: linear-gradient(
+		to right top,
+		rgb(237, 98, 47),
+		rgb(244, 233, 71)
+	);
+	margin: 40px auto 0 auto;
+	display: block;
+}
+
+/* popular packages */
+
+.popular {
+	text-align: center;
+}
+
+.popular {
+	margin-bottom: 50px;
+}
+.popular h2 {
+	font-family: "Skranji", cursive;
+}
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cards {
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+.carousel {
+	min-height: 600px;
+}
+.carousel-inner {
+	height: 100%;
+}
+
+.carouselcards {
+	display: flex;
+	padding: 0 10px 0 10px;
+	justify-content: space-around;
+}
+.carousel-control-prev,
+.carousel-control-next {
+	top: 37%;
+	width: 50px;
+	background: rgb(4, 4, 10);
+	height: 50px;
+	border-radius: 50%;
+}
+
+/* services styling */
+
+.single-card {
+	height: 150px;
+	margin: auto;
+	position: relative;
+}
+.beforecontact {
+	width: 100%;
+	min-height: 600px;
+	margin-top: 200px;
+	margin-bottom: 80px;
+	background-color: rgb(203, 233, 245);
+	background-image: url("./gallery/pexels-jess-loiterton-5007153.jpg");
+	background-size: cover;
+	align-items: center;
+	perspective: 900px;
+	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+	padding-top: 30px;
+}
+.servicetitle {
+	text-align: center;
+	font-family: "Caveat Brush", cursive;
+	font-size: 60px;
+	font-weight: 900;
+	margin-bottom: 60px;
+}
+
+.single-card:hover {
+	transform: rotateY(180deg);
+}
+
+.servicescndrow {
+	margin-top: 68px;
+}
+.single-card {
+	text-align: center;
+	font-family: "EB Garamond", serif;
+	transition: all 1.8s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+	transform-style: preserve-3d;
+}
+
+.front,
+.back {
+	height: 150px;
+	position: relative;
+	top: 0;
+	left: 0;
+	backface-visibility: hidden;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	backdrop-filter: blur(1rem);
+	background-color: rgba(225, 225, 225, 0.1);
+}
+/* .img1,.img2,.img3{
+	border-radius: 50px;
+	width: 100%;
+	height: 200px;
+    padding-bottom:10px ;
+} */
+
+.front {
+	cursor: pointer;
+	/* background-color: rgb(22, 176, 237); */
+	/* background-image: linear-gradient(to right top,rgb(22, 176, 237),rgb(225, 231, 245)); */
+	backface-visibility: hidden;
+	border-radius: 50px;
+	font-size: 80px;
+	/* background-image: url('https://images.all-free-download.com/images/graphiclarge/airbus_hd_photo_1_168573.jpg'); */
+	align-items: center;
+	/* background-color: white; */
+}
+.back {
+	transform: rotateY(180deg);
+	position: absolute;
+	border-radius: 50px;
+	width: 100%;
+	background-color: white;
+}
+.back p {
+	padding-top: 5%;
+	color: black;
+	font-family: "Cormorant Garamond", serif;
+}
+.back h3 {
+	font-size: 30px;
+	margin: 0;
+	font-weight: 300;
+}
+.apm {
+	text-decoration: none;
+	color: black;
+}
+.fat {
+	align-items: center;
+	text-align: center;
+}
+.faticons {
+	font-size: 60px;
+	color: rgb(1, 5, 15);
+}
+
+@media (max-width: 540px) {
+	.tworows {
+		gap: 20px;
+	}
+}
+.assurancecol {
+	background-color: rgb(203, 233, 245);
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding-top: 30px;
+	align-items: center;
+}
+.assurance h4 {
+	/* margin-top: 30px; */
+	text-align: center;
+	font-family: "Skranji", cursive;
+}
+.assureul {
+	margin-left: 50%;
+	translate: -50%;
+	margin-top: 50px;
+}
+
+/* ratings styling */
+
+.reviewfeedback {
+	width: 100%;
+	height: 250px;
+	margin-top: 250px;
+	background-color: #087a91;
+	padding-top: 20px;
+	font-family: "Mooli", sans-serif;
+}
+.inputbtn {
+	display: flex;
+	justify-content: center;
+}
+.postbtn {
+	margin-left: 20px;
+}
+.post {
+	width: 50px;
+	height: 30px;
+	border-radius: 15px;
+	background-color: rgb(134, 207, 234);
+}
+
+.ratingcontainer {
+	width: 70%;
+	min-height: 820px;
+	background-color: rgba(203, 233, 245, 0.667);
+	margin-left: 50%;
+	translate: -50%;
+	margin-top: 100px;
+	padding-top: 50px;
+}
+/* @media(min-width:768 max-width:820){
+	.reviewcards{
+        
+	}
+} */
+
+.reviewcards {
+	margin-top: 100px;
+}
+.scndrow {
+	margin-top: 50px;
+}
+.card-text {
+	color: black;
+	text-align: justify;
+	font-family: "Cormorant Garamond", serif;
+}
+.eachcard {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 10px;
+}
+.card-body {
+	flex: 1;
+}
+.eachcard .card {
+	height: 250px;
+}
+.eachcard:hover {
+	transform: scale(1.08);
+	cursor: pointer;
+}
+.ratingtext {
+	color: rgb(0, 0, 0);
+	text-align: center;
+	font-family: "Skranji", cursive;
+}
+.twocols {
+	margin-top: 50px;
+}
+
+.ratecol {
+	justify-content: center;
+	text-align: center;
+	font-size: 20px;
+}
+.ratingtxt {
+	color: white;
+}
+.ratingstar {
+	color: white;
+}
+
+.stars {
+	display: flex;
+}
+.ratingstars {
+	padding: 10px;
+}
+.checked {
+	color: rgb(255, 187, 0);
+}
+
+.reviewfeedback h3 {
+	text-align: center;
+	color: white;
+}
+.rate,
+.feed,
+.review {
+	align-items: center;
+	justify-content: center;
+}
+.rate,
+.feed,
+.review h5 {
+	text-align: center;
+	color: white;
+}
+.dropdownreview {
+	color: white;
+}
+
+/* footer section styling */
+
+.footer {
+	min-height: 600px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url("./gallery/pexels-asad-photo-maldives-1320684.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	/* background-color: rgb(101, 203, 234); */
+	padding-top: 25px;
+	margin-top: 100px;
+	bottom: 0;
+	position: relative;
+	font-family: "Cormorant Garamond", serif;
+}
+.icon-set {
+	margin-top: 3%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.lastcolicons {
+	justify-content: center;
+}
+.icon {
+	height: 40px;
+	/* border: 1px solid black; */
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 10px;
+}
+.icon i {
+	font-size: 25px;
+}
+.icon:hover {
+	color: rgb(249, 249, 249);
+}
+
+.link {
+	text-decoration: none;
+	color: white;
+}
+.footer h3 {
+	text-align: center;
+	margin-top: 18px;
+}
+.footer p {
+	text-align: center;
+}
+
+.foot {
+	margin-top: 50px;
+	color: white;
+}
+.lastsentence {
+	margin-top: 150px;
+}
+.icon {
+	color: white;
+}
+.footeritems {
+	text-align: center;
+}
+
+.footericons {
+	font-size: 20px;
+}
+
+.wfit {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
